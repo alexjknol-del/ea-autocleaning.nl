@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="EA Autocleaning">
+  <rect width="48" height="48" rx="13" fill="#0E5E77"/>
+  <path d="M10 27h28l-3.4-8A4.6 4.6 0 0 0 30.2 16H17.8a4.6 4.6 0 0 0-4.4 3z" fill="#7FD4E8"/>
+  <rect x="8" y="27" width="32" height="5" rx="2.5" fill="#F2F7F9"/>
+  <circle cx="16" cy="34" r="3.4" fill="#F2F7F9"/><circle cx="32" cy="34" r="3.4" fill="#F2F7F9"/>
+  <circle cx="34" cy="14" r="3" fill="#F2F7F9" opacity=".9"/>
+  <circle cx="39" cy="20" r="2" fill="#F2F7F9" opacity=".7"/>
+  <circle cx="29" cy="10" r="1.7" fill="#F2F7F9" opacity=".6"/>
+</svg>

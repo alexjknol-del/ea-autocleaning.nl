@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340" role="img" aria-label="Illustratie van een auto die wordt gereinigd">
+<title>Auto reinigen</title>
+<rect width="480" height="340" rx="18" fill="#EAF4F7"/>
+<circle cx="392" cy="76" r="44" fill="#7FD4E8" opacity=".45"/>
+<circle cx="76" cy="72" r="24" fill="#0E5E77" opacity=".14"/>
+<rect x="40" y="252" width="400" height="12" rx="6" fill="#BFD8E0"/>
+<path d="M118 238h250l-13-46c-4-13-15-22-28-22H172c-13 0-25 8-29 20z" fill="#F7FBFC"/>
+<path d="M176 178h56v-24h-36c-9 0-15 6-18 13z" fill="#7FD4E8"/>
+<path d="M244 178h66l-11-18c-3-4-7-6-12-6h-43z" fill="#7FD4E8"/>
+<rect x="108" y="234" width="272" height="14" rx="7" fill="#0E5E77"/>
+<g><circle cx="172" cy="248" r="26" fill="#233A42"/><circle cx="172" cy="248" r="14" fill="#B9CDD5"/></g>
+<g><circle cx="330" cy="248" r="26" fill="#233A42"/><circle cx="330" cy="248" r="14" fill="#B9CDD5"/></g>
+<g fill="#FFFFFF" opacity=".85">
+  <circle cx="150" cy="150" r="13"/><circle cx="186" cy="126" r="9"/><circle cx="128" cy="122" r="7"/>
+  <circle cx="330" cy="132" r="11"/><circle cx="366" cy="152" r="7.5"/><circle cx="300" cy="112" r="6"/>
+</g>
+<g stroke="#0E5E77" stroke-width="5" stroke-linecap="round"><path d="M64 196l30-30"/><path d="M60 214h34"/></g>
+<rect x="46" y="150" width="26" height="46" rx="8" fill="#0E5E77"/>
+</svg>
