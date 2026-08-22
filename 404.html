@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pagina niet gevonden | EA Autocleaning</title>
+<meta name="description" content="De opgevraagde pagina bestaat niet op ea-autocleaning.nl.">
+<meta name="robots" content="noindex, follow">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="EA Autocleaning">
+<meta property="og:locale" content="nl_NL">
+<meta property="og:title" content="Pagina niet gevonden | EA Autocleaning">
+<meta property="og:description" content="De opgevraagde pagina bestaat niet op ea-autocleaning.nl.">
+<meta property="og:url" content="https://ea-autocleaning.nl/404.html">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#0f1113">
+<link rel="stylesheet" href="/assets/style.css">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="alternate" type="application/rss+xml" title="Nieuws van EA Autocleaning" href="/nieuws/feed.xml">
+</head>
+<body>
+<a class="skip" href="#main">Naar de inhoud</a>
+<div class="tape" aria-hidden="true"></div>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="/">
+      <span class="mono-badge" aria-hidden="true">EA</span>
+      <span>
+        <span class="brand-name">EA Autocleaning</span>
+        <span class="brand-sub">Zelf de auto reinigen</span>
+      </span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="hoofdmenu">Menu</button>
+    <nav class="main-nav" id="hoofdmenu" aria-label="Hoofdmenu">
+      <ul>
+        <li><a href="/gidsen/">Gidsen</a></li>
+        <li><a href="/nieuws/">Nieuws</a></li>
+        <li><a href="/producten/">Producten</a></li>
+        <li><a href="/videos/">Video's</a></li>
+        <li><a href="/begrippen/">Begrippen</a></li>
+        <li><a href="/over/">Over</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<div class="wrap error-page"><div class="code">404</div><h1>Deze pagina bestaat niet</h1><p>Het adres klopt niet meer of is verkeerd overgenomen. Via het menu of de knoppen hieronder is de weg terug te vinden.</p><div class="btn-row" style="justify-content:center"><a class="btn" href="/gidsen/">Naar de gidsen</a><a class="btn btn-ghost" href="/">Naar de homepage</a><a class="btn btn-ghost" href="/begrippen/">Naar de begrippenlijst</a></div></div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="/" style="margin-bottom:14px">
+          <span class="mono-badge" aria-hidden="true">EA</span>
+          <span><span class="brand-name">EA Autocleaning</span></span>
+        </a>
+        <p>Onafhankelijke Nederlandstalige gids over het zelf reinigen en beschermen van auto's. Uitleg per stap, zonder verkooppraat.</p>
+        <p><a href="mailto:info@ea-autocleaning.nl">info@ea-autocleaning.nl</a></p>
+      </div>
+      <div>
+        <h4>Aan de slag</h4>
+        <ul>
+          <li><a href="/gidsen/">Alle gidsen</a></li>
+          <li><a href="/gidsen/auto-wassen-twee-emmer-methode/">Wassen met twee emmers</a></li>
+          <li><a href="/gidsen/velgen-en-banden-reinigen/">Velgen en banden</a></li>
+          <li><a href="/gidsen/interieur-reinigen/">Interieur reinigen</a></li>
+          <li><a href="/begrippen/">Begrippenlijst</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Lezen en kijken</h4>
+        <ul>
+          <li><a href="/nieuws/">Nieuws</a></li>
+          <li><a href="/videos/">Video's</a></li>
+          <li><a href="/producten/">Aanbevolen producten</a></li>
+          <li><a href="/bronnen/">Elders lezen</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Over deze site</h4>
+        <ul>
+          <li><a href="/over/">Over het platform</a></li>
+          <li><a href="/contact/">Contact</a></li>
+          <li><a href="/privacybeleid/">Privacybeleid</a></li>
+          <li><a href="/cookiebeleid/">Cookiebeleid</a></li>
+          <li><a href="/disclaimer/">Disclaimer</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 EA Autocleaning</span>
+      <ul>
+        <li><a href="/privacybeleid/">Privacybeleid</a></li>
+        <li><a href="/cookiebeleid/">Cookiebeleid</a></li>
+        <li><a href="/disclaimer/">Disclaimer</a></li>
+        <li><a href="/sitemap.xml">Sitemap</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<script>
+(function () {
+  var btn = document.querySelector('.nav-toggle');
+  var nav = document.getElementById('hoofdmenu');
+  if (btn && nav) {
+    btn.addEventListener('click', function () {
+      var open = nav.classList.toggle('is-open');
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+  }
+  document.querySelectorAll('.video-facade').forEach(function (el) {
+    el.addEventListener('click', function () {
+      var id = el.getAttribute('data-video');
+      var title = el.getAttribute('data-title') || 'Video';
+      var frame = document.createElement('iframe');
+      frame.setAttribute('src', 'https://www.youtube-nocookie.com/embed/' + id + '?autoplay=1&rel=0');
+      frame.setAttribute('title', title);
+      frame.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture');
+      frame.setAttribute('allowfullscreen', '');
+      frame.setAttribute('loading', 'lazy');
+      el.replaceWith(frame);
+    });
+  });
+})();
+</script>
+</body>
+</html>

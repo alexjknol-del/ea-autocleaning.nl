@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ea-autocleaning.nl/sitemap.xml
